@@ -40,7 +40,6 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
 
-test();
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -54,7 +53,7 @@ test();
 public void test()
 {
 	int j;
-	j=15;
+	j=20;
 	Log.i(null,String.valueOf(j));
 }
     
